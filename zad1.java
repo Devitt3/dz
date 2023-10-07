@@ -6,7 +6,7 @@ public class zad1 {
         System.out.print("Введите имя: ");
         String name = in.nextLine();
         System.out.print("Введите свой возраст: ");
-        float age = in.nextFloat();
+        int age = in.nextInt();
         System.out.print("Введите свой рост: ");
         float weight = in.nextFloat();
 
