@@ -1,9 +1,17 @@
+import java.util.Scanner;
+
 public class zad1 {
     public static void main(String[] args) {
-        String name = "Даша";
-        int age = 17;
-        float weight = 59.7f;
+        Scanner in = new Scanner(System.in);
+        System.out.print("Введите имя: ");
+        String name = in.nextLine();
+        System.out.print("Введите свой возраст: ");
+        float age = in.nextFloat();
+        System.out.print("Введите свой рост: ");
+        float weight = in.nextFloat();
+
         System.out.printf("Name: %s Age: %d Weight: %.1f \n", name, age, weight);
     }
 }
+
 
